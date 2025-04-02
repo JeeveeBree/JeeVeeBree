@@ -1,9 +1,11 @@
 import { useState } from "react";
+import GetInTouch from "./GetInTouch.jsx";
 
 function Homepage() {
   return (
     <>
-      <body>
+      <p>hoi</p>
+      {/* <body>
         <header>
           <nav>
             <a href="index.html">Jorn van Bree</a>
@@ -87,14 +89,14 @@ function Homepage() {
               also send me an email and I will get back to you within 24-48
               hours.
             </p>
-            <a href="contact.html">Get in touch</a>
+            <a href="GetInTouch.jsx">Get in touch</a>
           </article>
         </main>
 
         <footer>
           <a href="index.html">Jorn van Bree</a>
         </footer>
-      </body>
+      </body> */}
     </>
   );
 }
