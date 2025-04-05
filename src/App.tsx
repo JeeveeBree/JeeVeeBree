@@ -9,6 +9,7 @@ function App() {
   return (
     <Router>
       <nav className="nav">
+        <div className="logo">JeeveeBree</div>
         <Link to="/">Home</Link>
         <Link to="/portfolio">Portfolio</Link>
         <Link to="/about">About Me</Link>
