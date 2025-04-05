@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.content {
+  margin: 1em;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}

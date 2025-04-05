@@ -1,24 +1,14 @@
-// import { useState } from "react";
-// import "./Css/App.css";
-// import "./Css/normalize.css";
-// import Homepage from "./components/Homepage";
-
-// function App() {
-
-//   return <Homepage />;
-// }
-// export default App;
-
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Homepage from "./components/Homepage.jsx";
-import Portfolio from "./components/Portfolio";
-import AboutMe from "./components/AboutMe";
-import GetInTouch from "./components/GetInTouch";
+import Portfolio from "./components/Portfolio.jsx";
+import AboutMe from "./components/AboutMe.jsx";
+import GetInTouch from "./components/GetInTouch.jsx";
+import "./Css/App.css";
 
 function App() {
   return (
     <Router>
-      <nav>
+      <nav className="nav">
         <Link to="/">Home</Link>
         <Link to="/portfolio">Portfolio</Link>
         <Link to="/about">About Me</Link>
