@@ -9,6 +9,7 @@ body {
   flex-direction: row; /* horizontale uitlijning */
   align-items: flex-start; /* bovenaan uitlijnen */
   gap: 2rem; /* ruimte tussen img en content */
+
   padding: 2rem;
   flex-wrap: wrap;
 }
@@ -20,7 +21,6 @@ body {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 50%;
   object-fit: cover; /* Zorgt ervoor dat de afbeelding volledig zichtbaar blijft binnen de cirkel */
-  object-position: -0.1px -10px; /* Zorgt ervoor dat de afbeelding in het midden van de cirkel staat */
 }
 
 .content {

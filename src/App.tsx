@@ -3,7 +3,12 @@ import Homepage from "./components/Homepage.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 import GetInTouch from "./components/GetInTouch.jsx";
+// import { setupMouseTracker } from "./components/setupMouseTracker.jsx";
 import "./Css/App.css";
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   setupMouseTracker();
+// });
 
 function App() {
   return (
