@@ -3,7 +3,7 @@ import Homepage from "./components/Homepage";
 import Portfolio from "./components/Portfolio";
 import AboutMe from "./components/AboutMe";
 import GetInTouch from "./components/GetInTouch";
-// import { setupMouseTracker } from "./components/setupMouseTracker.jsx";
+
 import "./Css/App.css";
 
 // document.addEventListener("DOMContentLoaded", () => {
