@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Homepage from "./components/Homepage.tsx";
-import Portfolio from "./components/Portfolio.tsx";
-import AboutMe from "./components/AboutMe.tsx";
-import GetInTouch from "./components/GetInTouch.tsx";
+import Homepage from "./components/Homepage";
+import Portfolio from "./components/Portfolio";
+import AboutMe from "./components/AboutMe";
+import GetInTouch from "./components/GetInTouch";
 // import { setupMouseTracker } from "./components/setupMouseTracker.jsx";
 import "./Css/App.css";
 
