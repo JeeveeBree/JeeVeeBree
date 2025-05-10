@@ -6,6 +6,8 @@ body {
 
 .main {
   display: flex;
+  margin-top: 60px;
+  padding-top: 0;
   flex-direction: column;
   justify-content: flex-start;
 }

@@ -6,10 +6,6 @@ import GetInTouch from "./components/GetInTouch";
 
 import "./Css/App.css";
 
-// document.addEventListener("DOMContentLoaded", () => {
-//   setupMouseTracker();
-// });
-
 function App() {
   return (
     <Router>
@@ -20,12 +16,14 @@ function App() {
         <Link to="/about">About Me</Link>
         <Link to="/contact">Get in touch</Link>
       </nav>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/contact" element={<GetInTouch />} />
-      </Routes>
+      <div className="page-content">
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/contact" element={<GetInTouch />} />
+        </Routes>
+      </div>
     </Router>
   );
 }

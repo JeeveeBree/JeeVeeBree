@@ -1,8 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-
-  padding: 2rem;
+  padding-top: 60px;
   text-align: center;
 }
 
@@ -52,9 +51,10 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: 60px;
   background-color: #333;
   color: #fff;
-  padding: 1rem;
+  /* padding: 10rem; */
   text-align: center;
   z-index: 1000; /* Zorg ervoor dat de nav boven andere inhoud komt */
   background-image: url("../assets/background-dark-abstract.jpg"); /* Pad naar je afbeelding */
@@ -73,6 +73,10 @@
 
 .nav a:hover {
   background-color: #646cff;
+}
+
+.page-content {
+  padding-top: 60px; /* Zelfde als .nav height */
 }
 
 @media (prefers-reduced-motion: no-preference) {
