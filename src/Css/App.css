@@ -56,7 +56,7 @@
   color: #fff;
   /* padding: 10rem; */
   text-align: center;
-  z-index: 1000; /* Zorg ervoor dat de nav boven andere inhoud komt */
+  z-index: 9999; /* Zorg ervoor dat de nav boven andere inhoud komt */
   background-image: url("../assets/background-dark-abstract.jpg"); /* Pad naar je afbeelding */
   background-size: cover; /* Zorgt ervoor dat de afbeelding de gehele achtergrond bedekt */
   background-position: center center; /* Stelt de positie van de afbeelding in */

@@ -2,16 +2,29 @@ html,
 body {
   height: 100%;
   margin: 0;
+  background: red;
 }
 
-.main {
+/* .main {
   display: flex;
   margin-top: 60px;
   padding-top: 0;
   flex-direction: column;
   justify-content: flex-start;
-}
+} */
 
+.main {
+  display: flex;
+  flex-direction: column; /* zorgt voor verticale stacking */
+  justify-content: flex-start;
+  margin-top: 60px; /* voldoende ruimte voor de navbar */
+  padding: 32px; /* zorgt voor ruimte rond de content */
+  background-color: rgb(
+    0,
+    0,
+    0
+  ); /* achtergrond kan je aanpassen of verwijderen */
+}
 p {
   margin: 1em;
 }
