@@ -1,4 +1,4 @@
-import "../Css/homepage.css";
+// import "../Css/homepage.css";
 
 function Homepage() {
   return (

@@ -1,4 +1,4 @@
-import "../Css/getInTouch.css";
+// import "../Css/getInTouch.css";
 import GitHubIcon from "../assets/iconmonstr-github-4.svg"; // Pas het pad aan naar je SVG-bestand
 import EmailIcon from "../assets/iconmonstr-email-10.svg";
 import LinkedInIcon from "../assets/iconmonstr-linkedin-5.svg";
@@ -8,7 +8,7 @@ function GetInTouch() {
   return (
     <>
       <main className="main">
-        <img src={profilePicture} alt="profile-picture" className="img" />
+        {/* <img src={profilePicture} alt="profile-picture" className="img" /> */}
         <div className="content">
           I’d love to hear from you! Whether you want to discuss a project,
           collaborate, or just have a friendly chat about tech, feel free to
