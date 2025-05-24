@@ -3,6 +3,13 @@
   line-height: 1.5;
   font-weight: 400;
 
+  max-width: 100vw;
+  /* min-width: 425px; */
+
+  margin: 0 auto;
+
+  text-align: left;
+
   color-scheme: light dark;
   color: rgb(255, 255, 255);
   background-color: #242424;
@@ -25,9 +32,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-
-  min-width: 250px;
-  min-height: 100vh;
 }
 
 h1 {

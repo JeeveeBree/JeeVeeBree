@@ -1,5 +1,5 @@
-// import "../Css/getInTouch.css";
-import GitHubIcon from "../assets/iconmonstr-github-4.svg"; // Pas het pad aan naar je SVG-bestand
+import "../Css/getInTouch.css";
+import GitHubIcon from "../assets/iconmonstr-github-4.svg";
 import EmailIcon from "../assets/iconmonstr-email-10.svg";
 import LinkedInIcon from "../assets/iconmonstr-linkedin-5.svg";
 import profilePicture from "../assets/profile-picture.jpg";
