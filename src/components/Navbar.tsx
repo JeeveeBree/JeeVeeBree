@@ -1,12 +1,16 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import hamburgerIcon from "../assets/iconmonstr-menu-circle-filled.svg";
 
 import "../Css/Navbar.css";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-  console.log("render hamburger button");
+  const location = useLocation();
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location.pathname]);
 
   return (
     <nav className="nav">
@@ -36,7 +40,7 @@ const Navbar: React.FC = () => {
             About Me
           </Link>
           <Link to="/contact" onClick={() => setIsOpen(false)}>
-            Get in touch
+            Get In Touch
           </Link>
         </div>
       </div>

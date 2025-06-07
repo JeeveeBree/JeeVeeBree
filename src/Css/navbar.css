@@ -100,7 +100,7 @@
     display: block;
   }
 
-  .nav-links {
+  /* .nav-links {
     display: none;
     flex-direction: column;
     background-color: #444;
@@ -113,6 +113,32 @@
 
   .nav-links.open {
     display: flex;
+    
+    margin: 1rem;
+  } */
+  .nav-links {
+    flex-direction: column;
+    background-color: #444;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+
+    /* 🔥 animatiebasis */
+    opacity: 0;
+    transform: translateY(-10px);
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    pointer-events: none;
+  }
+
+  .nav-links.open {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 300px; /* of meer indien nodig */
+    pointer-events: auto;
   }
 }
 

@@ -1,10 +1,4 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-
-.main {
+.touchMain {
   display: flex;
   flex-direction: row; /* horizontale uitlijning */
   align-items: flex-start; /* bovenaan uitlijnen */
@@ -14,7 +8,7 @@ body {
   flex-wrap: wrap;
 }
 
-.img {
+.profileImg {
   /* display: block; */
   width: 150px;
   height: 150px;
@@ -23,7 +17,7 @@ body {
   object-fit: cover; /* Zorgt ervoor dat de afbeelding volledig zichtbaar blijft binnen de cirkel */
 }
 
-.content {
+.touchContent {
   flex: 1;
   margin: 0;
   display: flex;
@@ -31,14 +25,15 @@ body {
   justify-content: flex-start;
 }
 
-.link {
+.touchLinks {
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
   margin-top: auto;
-  gap: 1rem; /* Ruimte tussen de iconen */
+  gap: 1rem;
 }
 
-.link img {
+.touchLinks img {
   width: 50px;
   height: 50px;
   background-color: white;
@@ -46,29 +41,8 @@ body {
   padding: 0.2rem; /* beetje ruimte rondom het icoon */
 }
 
-.link img:hover {
+.touchLinks img:hover {
   background-color: #f0f0f0;
   transform: scale(1.2);
   transition: all 0.2s ease;
-}
-
-/* Media query voor kleinere schermen */
-@media (max-width: 768px) {
-  /* Op kleinere schermen worden de img en content onder elkaar gezet */
-  .main {
-    flex-direction: column; /* Verander naar kolomlayout */
-    align-items: center; /* Centreer de content */
-  }
-
-  /* Als de schermgrootte kleiner is dan 768px, maak de afbeelding nog kleiner */
-  .img {
-    width: 120px; /* Kleinere afbeelding op kleine schermen */
-    height: 120px;
-  }
-
-  /* Zorg ervoor dat de .link iconen netjes in de rij staan */
-  .link {
-    justify-content: center; /* Center de iconen op kleine schermen */
-    gap: 1rem; /* Ruimte tussen de iconen */
-  }
 }

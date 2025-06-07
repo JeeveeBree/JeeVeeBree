@@ -19,6 +19,9 @@ function App() {
           <Route path="/contact" element={<GetInTouch />} />
         </Routes>
       </div>
+      <footer class="footer">
+        <p>© 2025 Jorn van Bree</p>
+      </footer>
     </Router>
   );
 }
