@@ -1,4 +1,5 @@
 // import "../Css/portfolio.css";
+import { Outlet, Link } from "react-router-dom";
 
 function Portfolio() {
   return (
@@ -15,6 +16,9 @@ function Portfolio() {
         projects, and don’t hesitate to get in touch if you’d like to
         collaborate or just chat about tech!
       </main>
+      <nav>
+        <Link to="projects">Bekijk projecten</Link>
+      </nav>
     </>
   );
 }

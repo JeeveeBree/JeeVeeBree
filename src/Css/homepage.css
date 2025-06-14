@@ -1,35 +1,30 @@
-/* :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #0d0d0d;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #ff0000;
-}
+  color: #ffffff;
+} */
 
-body {
+/* body {
   margin: 0;
   display: flex;
 
   min-width: 320px;
   min-height: 100vh;
-}
+} */
 
+/* div .box {
+  width: 100vw;
+  height: 100vh;
+  background-color: #4caf50;
+  color: white;
+  margin: 1rem;
+  padding: 1rem;
+  border: 20px solid black;
+} */
+/* 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -52,12 +47,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
+} */
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     color: #213547;
     background-color: #ffffff;
+    background-color: #242424;
   }
   a:hover {
     color: #747bff;
@@ -65,9 +61,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-.main {
-  /* justify-content: left;
+} */
+
+/* .main {
+  justify-content: left;
   align-items: left;
-  text-align: left; */
-}
+  text-align: left;
+} */
