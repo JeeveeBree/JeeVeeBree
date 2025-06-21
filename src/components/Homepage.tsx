@@ -1,5 +1,5 @@
 // import "../Css/homepage.css";
-
+// niet in gebruik atm.
 function Homepage() {
   return (
     <>

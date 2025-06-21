@@ -48,9 +48,11 @@ function App() {
         <Route
           path="/"
           element={
-            <HomeLayout>
-              <Homepage />
-            </HomeLayout>
+            // <HomeLayout>
+            <HomeLayout /> /*voorheen had ik hier <Homepage /> staan maar 
+            hierdoor kon ik de homelayout niet goed stylen. De homepage is toch
+            eigenlijk niet meer van toepassing nu */
+            /* </HomeLayout> */
           }
         />
 
