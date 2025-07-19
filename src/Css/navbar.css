@@ -1,32 +1,39 @@
+/* styling for the navbar in anything but the homepage 
+used in combination with mainLayout.css*/
+
 .nav {
   position: relative;
 
-  padding: 1rem;
+  padding: 2rem;
 
   height: 100px;
-  /* background-color: #333; */
+
   color: #fff;
 
   text-align: left;
   z-index: 9998;
   /* background-image: url("../assets/background-dark-abstract.jpg"); */
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
+  text-decoration: none;
 }
 
 .nav a {
-  padding: 0.1rem;
+  /* padding: 0.1rem; */
 }
 
-.nav a:hover {
-  background-color: #646cff;
-}
+/* .nav a:hover {
+  color: #646cff;
+} */
 
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #030303;
+
   /* flex-wrap: wrap; */
   width: 100%;
 }
@@ -37,33 +44,70 @@
 }
 
 .nav-links a {
-  color: white;
+  color: #bed754;
   text-decoration: none;
+  position: relative;
+}
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #e3651d;
+  transition: width 0.3s ease-in-out;
+}
+.nav-links a:hover::after {
+  width: 100%;
 }
 
-/* .logo {
+/* 
+.logo {
   font-weight: bold;
   font-size: 1.5rem;
 } */
-
+.logo a {
+  font-family: "Megrim";
+  /* font-size: 1.5rem; */
+  /* text-shadow: 1px 0 black, 0 1px black, -1px 0 black, 0 -1px black; */
+  text-decoration: none;
+  color: #e3651d;
+}
 .logo {
-  padding: 1rem;
+  /* padding: 1rem; */
   font-size: 2rem;
+
   /* background: linear-gradient(90deg, #0410f7, #77d6f0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
   will-change: filter;
   transition: filter 300ms;
-}
-.logo:hover {
-  color: #646cff;
-  text-shadow: 0 0 1em #646cffaa;
-  /* transform: scale(1.05); */
-  /* animation: logo-spin 3s linear infinite; */
-  filter: drop-shadow(0 0 2em #646cffaa);
+  text-decoration: none;
 }
 
-@keyframes logo-spin {
+.logo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #bed754;
+  transition: width 0.3s ease-in-out;
+}
+.logo:hover::after {
+  width: 100%;
+}
+.logo a:hover {
+  /* color: #751d0e; */
+  /* text-shadow: 0 0 2em #bed754; */
+  /* transform: scale(1.05); */
+  /* animation: logo-spin 3s linear infinite; */
+  /* filter: drop-shadow(0 0 2em #bed754); */
+}
+
+/* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -72,73 +116,27 @@
   }
 }
 
-.hamburger {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: white;
-  display: none;
-  cursor: pointer;
-}
-
-.hamburger-icon {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border-radius: 100px;
-  /* padding: 1px; */
-}
-
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
+} */
 
 @media (max-width: 430px) {
-  .hamburger {
-    display: block;
-  }
-
-  /* .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: #444;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
+  .nav {
     padding: 1rem;
   }
-
-  .nav-links.open {
+  .nav-container {
     display: flex;
-    
-    margin: 1rem;
-  } */
-  .nav-links {
     flex-direction: column;
-    background-color: #444;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    width: 100%;
-    padding: 1rem;
-
-    /* 🔥 animatiebasis */
-    opacity: 0;
-    transform: translateY(-10px);
-    max-height: 0;
-    overflow: hidden;
-    transition: all 1s ease-in-out;
-    pointer-events: none;
+    align-items: flex-start;
   }
 
-  .nav-links.open {
-    opacity: 1;
-    transform: translateY(0);
-    max-height: 300px; /* of meer indien nodig */
-    pointer-events: auto;
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
   }
 }
 
@@ -147,11 +145,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* gap: 1rem; */
   }
 
   .nav-links {
     display: flex;
-    padding-left: 1rem;
   }
 }

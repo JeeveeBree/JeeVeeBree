@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-// import hamburgerIcon from "../assets/iconmonstr-menu-circle-filled.svg";
 
 import "../Css/homeNavbar.css";
 
@@ -19,20 +18,6 @@ const HomeNavbar: React.FC = () => {
       </div>
 
       <div className="homenavbar-nav-container">
-        {/* <div className="homenavbar-logo">Jorn van Bree</div> */}
-        {/* <button
-          className="homenavbar-hamburger"
-          onClick={() => setIsOpen(!isOpen)}
-          aria-label="Toggle menu"
-        >
-          <img
-            src={hamburgerIcon}
-            alt="hamburgerMenu"
-            className="homenavbar-hamburger-icon"
-          /> */}
-        {/* ☰ */}
-        {/* </button> */}
-
         <div className={`homenavbar-nav-links ${isOpen ? "open" : ""}`}>
           <Link
             to="/portfolio"
@@ -43,7 +28,7 @@ const HomeNavbar: React.FC = () => {
           </Link>
 
           <Link
-            to="/portfolio/projects"
+            to="/projects"
             className="projects-link"
             onClick={() => setIsOpen(false)}
           >

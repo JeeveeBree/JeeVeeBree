@@ -66,7 +66,7 @@ function App() {
           }
         />
         <Route
-          path="/portfolio/projects"
+          path="/projects"
           element={
             <MainLayout>
               <Projects />

@@ -1,29 +1,5 @@
-.touchMain {
-  display: flex;
-  flex-direction: row; /* horizontale uitlijning */
-  align-items: flex-start; /* bovenaan uitlijnen */
-  gap: 2rem; /* ruimte tussen img en content */
-
-  padding: 2rem;
-  flex-wrap: wrap;
-}
-
-.profileImg {
-  /* display: block; */
-  width: 150px;
-  height: 150px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 50%;
-  object-fit: cover; /* Zorgt ervoor dat de afbeelding volledig zichtbaar blijft binnen de cirkel */
-}
-
-.touchContent {
-  flex: 1;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
+/* styling for the social media / get in touch 
+buttons on the get in touch page */
 
 .touchLinks {
   padding: 2rem;
@@ -37,8 +13,8 @@
   width: 50px;
   height: 50px;
   background-color: white;
-  border-radius: 100px; /* optioneel, maakt het iets ronder */
-  padding: 0.2rem; /* beetje ruimte rondom het icoon */
+  border-radius: 100px;
+  padding: 0.2rem;
 }
 
 .touchLinks img:hover {

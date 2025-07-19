@@ -1,19 +1,6 @@
-/* .home-layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.homenavbar-nav {
-  background-color: #365e32;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.home-content {
-  flex: 1;
-} */
+/* styling for the homepage but because almost 
+the whole homepage is homeNavbar.css very little
+styling here. */
 
 .home-layout {
   display: flex;

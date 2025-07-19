@@ -1,3 +1,6 @@
+/* styling for the navbar on the homepage 
+used in combination with homeLayout.css */
+
 .homenavbar-nav {
   /* padding: 1rem; */
   /* position: fixed; */
@@ -8,19 +11,28 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #365e32;
+  background-color: #191919;
   /* box-shadow: 20px 20px 10px rgba(252, 4, 4, 0.966); */
   /* z-index: 1; */
   /* padding: 1rem 0; */
 }
 .homenavbar-title {
-  color: #030303;
+  font-family: "Megrim";
+  font-size: 1.5rem;
+  text-shadow: 1px 0 #e3651d, 0 1px #e3651d, -1px 0 #e3651d, 0 -1px #e3651d;
+  color: #e3651d;
   text-align: right;
   /* padding-right: 3rem; */
   /* padding: 3rem; */
-  margin: 1rem;
-  border-bottom: 1px solid #030303;
+  margin: 2rem;
+  border-bottom: 2px solid #030303;
 }
+
+/* .homenavbar-title:hover {
+ 
+  filter: drop-shadow(0 0 1em #cd1818);
+} */
+
 .homenavbar-nav-container {
   /* display: flex;
   justify-content: center;
@@ -54,8 +66,8 @@
   /* display: flex; */
 
   /* height: 50px; */
-  background-color: #81a263;
-  border-color: #365e32;
+  background-color: #e3651d;
+  border-color: #4e3636;
   padding: 1rem;
   margin: 0.05rem;
   /* text-align: left; */
@@ -63,8 +75,8 @@
   color: #030303;
   font-size: 2rem;
   /* border: thick double red; */
-  text-shadow: 2px 2px 0px #365e32;
-  box-shadow: 10px 10px 10px #030303;
+  text-shadow: 2px 2px 0px #bed754;
+  box-shadow: 10px 10px 10px #4e3636;
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
@@ -89,20 +101,23 @@
 }
 
 .homenavbar-nav-links a:hover {
-  background-color: #3f8f3a;
-  color: #f7f7f7;
+  background-color: #751d0e;
+  text-shadow: 2px 2px 0px #191919;
+  color: #fff;
 }
 
 .homenavbar-footer {
-  /* position: fixed; */
-  /* bottom: 0; */
-  /* height: 60px; */
-  /* border-top: 4px solid white; */
-  /* text-align: center; */
-  width: 100%;
+  width: calc(100% - 4rem);
   height: 60px;
-  border-top: 4px solid white;
+  margin: 0 2rem;
+  border-top: 2px solid black;
   text-align: center;
-  background-color: black;
+  /* background-color: #191919; */
   color: white;
+}
+
+@media (max-width: 400px) {
+  .homenavbar-title {
+    font-size: 1rem;
+  }
 }
