@@ -116,8 +116,14 @@ used in combination with homeLayout.css */
   color: white;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 475px) {
   .homenavbar-title {
+    font-size: 1rem;
+  }
+
+  .homenavbar-nav-links a {
+    padding: 1rem;
+    margin: 0.05rem;
     font-size: 1rem;
   }
 }
