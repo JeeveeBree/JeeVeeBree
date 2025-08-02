@@ -30,7 +30,7 @@
 // export default App;
 // App.tsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Homepage from "./components/Homepage";
+// import Homepage from "./components/Homepage";
 import Portfolio from "./components/Portfolio";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";

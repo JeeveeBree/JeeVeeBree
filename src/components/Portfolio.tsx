@@ -1,5 +1,5 @@
 // import "../Css/portfolio.css";
-import { Outlet, Link } from "react-router-dom";
+import { /*Outlet,*/ Link } from "react-router-dom";
 
 function Portfolio() {
   return (
