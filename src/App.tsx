@@ -1,34 +1,3 @@
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Homepage from "./components/Homepage";
-// import Portfolio from "./components/Portfolio";
-// import AboutMe from "./components/AboutMe";
-// import GetInTouch from "./components/GetInTouch";
-// import Navbar from "./components/Navbar";
-// import "./Css/normalize.css";
-// import "./Css/App.css";
-
-// function App() {
-//   return (
-//     <Router>
-//       <Navbar />
-//       <div className="page-content">
-//         <h1>Jorn van Bree</h1>
-//         <Routes>
-//           <Route path="/" element={<Homepage />} />
-//           <Route path="/portfolio" element={<Portfolio />} />
-//           <Route path="/about" element={<AboutMe />} />
-//           <Route path="/contact" element={<GetInTouch />} />
-//         </Routes>
-//       </div>
-//       <footer class="footer">
-//         <p>© 2025 Jorn van Bree</p>
-//       </footer>
-//     </Router>
-//   );
-// }
-
-// export default App;
-// App.tsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Homepage from "./components/Homepage";
 import Portfolio from "./components/Portfolio";
@@ -37,6 +6,7 @@ import AboutMe from "./components/AboutMe";
 import GetInTouch from "./components/GetInTouch";
 import HomeLayout from "./components/HomeLayout";
 import MainLayout from "./components/MainLayout";
+import ProjectDetail from "./components/projects/ProjectDetail";
 import "./Css/normalize.css";
 import "./Css/App.css";
 
@@ -44,7 +14,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* Homepage met aparte layout */}
+        {/* Homepage with different layout */}
         <Route
           path="/"
           element={
@@ -56,7 +26,7 @@ function App() {
           }
         />
 
-        {/* Andere pagina’s in main layout */}
+        {/* Other pages in mainlayout */}
         <Route
           path="/portfolio"
           element={
@@ -65,6 +35,7 @@ function App() {
             </MainLayout>
           }
         />
+
         <Route
           path="/projects"
           element={
@@ -73,7 +44,14 @@ function App() {
             </MainLayout>
           }
         />
-
+        <Route
+          path="/projects/:projectId"
+          element={
+            <MainLayout>
+              <ProjectDetail />
+            </MainLayout>
+          }
+        />
         <Route
           path="/about"
           element={

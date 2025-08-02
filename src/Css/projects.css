@@ -1,6 +1,6 @@
 /* currently global styled via mainLayout.css */
 
-.PCPP-build-Link {
+/* .PCPP-build-Link {
   text-decoration: none;
   color: #bed754;
   position: relative;
@@ -18,4 +18,67 @@
 }
 .PCPP-build-Link:hover::after {
   width: 100%;
+} */
+
+.projects-container {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.project-button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.project-button:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.project-image {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Content styling */
+.project-info {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/* Button 1: content left aligned (default flex-row) */
+.project-button.left {
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* Button 2 & 3: content right aligned */
+.project-button.right {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  text-align: right;
+}
+
+/* Maak tekst ook rechts uitgelijnd als button rechts is */
+.project-button.right .project-info {
+  text-align: right;
 }

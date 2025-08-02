@@ -1,0 +1,81 @@
+type Post = {
+  id: string;
+  title: string;
+  content: JSX.Element;
+};
+
+const PcBuildPostsArray: Post[] = [
+  {
+    id: "post1",
+    title: "Planning stage",
+    content: (
+      <>
+        <p>
+          A personal project I'm currently working on is building a new PC. I'm
+          still in the research stage at the moment, which includes a couple new
+          PC related YouTube subscriptions, keeping up with news from PC related
+          outlets. There was a lot of interesting coverage from the Computex
+          exhibition.
+        </p>
+        <p>
+          There are a lot of possible combinations of components in the PC
+          building space and I've chosen to go with an AMD CPU coupled with an
+          AMD GPU. These are the most important parts I think and although I
+          have preferences in motherboard, ram, memory, cooling and psu
+          manufacturers I am less set on these yet.
+        </p>
+        <p>
+          For my CPU I chose AMD because they are great chips overall and have
+          better gaming performance. My first choice was the Ryzen 7 9800x3d
+          which would be overkill for the GPU I'm going to pair it with. On the
+          other hand I like the idea of my PC being future proof. Another option
+          would be the Ryzen 7 7800x3d which also benefits from the 3D V-cache
+          which increases load times and fps. The third option is the Ryzen 7
+          9700x, this is the most budget friendly choice. All three options are
+          8-core processors.
+        </p>
+        <p>
+          On the GPU side the most logical choice for me is the AMD Radeon RX
+          9070XT, I'm just not sure yet which AIB-partner is the best for me.
+          For example the Asrock Steel Legend RX 9070XT is the most budget
+          friendly but not the best performer. While something like a Powercolor
+          Red Devil RX 9070XT is more performant and better for overclocking,
+          but is 22% more expensive at the time of writing.
+        </p>
+        <p>
+          For keeping track of different build ideas, PcPartPicker is an
+          excellent tool. I've got a few builds on my account, click{" "}
+          <a
+            className="PCPP-build-Link"
+            href="https://nl.pcpartpicker.com/list/Jh9yzP"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            here
+          </a>{" "}
+          for a build I'm currently considering.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "post2",
+    title: "Post 2",
+    content: (
+      <>
+        <p>Placeholder</p>
+      </>
+    ),
+  },
+  {
+    id: "post3",
+    title: "Post 3",
+    content: (
+      <>
+        <p>Placeholder</p>
+      </>
+    ),
+  },
+];
+
+export default PcBuildPostsArray;
