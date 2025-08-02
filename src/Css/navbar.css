@@ -19,9 +19,9 @@ used in combination with mainLayout.css*/
   text-decoration: none;
 }
 
-.nav a {
-  /* padding: 0.1rem; */
-}
+/* .nav a {
+  padding: 0.1rem;
+} */
 
 /* .nav a:hover {
   color: #646cff;
@@ -99,13 +99,13 @@ used in combination with mainLayout.css*/
 .logo:hover::after {
   width: 100%;
 }
-.logo a:hover {
-  /* color: #751d0e; */
-  /* text-shadow: 0 0 2em #bed754; */
-  /* transform: scale(1.05); */
-  /* animation: logo-spin 3s linear infinite; */
-  /* filter: drop-shadow(0 0 2em #bed754); */
-}
+/* .logo a:hover {
+  color: #751d0e;
+  text-shadow: 0 0 2em #bed754;
+  transform: scale(1.05);
+  animation: logo-spin 3s linear infinite;
+  filter: drop-shadow(0 0 2em #bed754);
+} */
 
 /* @keyframes logo-spin {
   from {
@@ -136,8 +136,8 @@ used in combination with mainLayout.css*/
     font-size: 1.5rem;
   }
 
-  .nav-links {
-  }
+  /* .nav-links {
+  } */
 }
 
 @media (min-width: 430px) and (max-width: 900px) {

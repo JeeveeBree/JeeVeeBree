@@ -1,1 +1,21 @@
-/* currently styled via mainLayout.css */
+/* currently global styled via mainLayout.css */
+
+.PCPP-build-Link {
+  text-decoration: none;
+  color: #bed754;
+  position: relative;
+}
+
+.PCPP-build-Link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #e3651d;
+  transition: width 0.3s ease-in-out;
+}
+.PCPP-build-Link:hover::after {
+  width: 100%;
+}

@@ -1,4 +1,4 @@
-// import "../Css/portfolio.css";
+import "../Css/portfolio.css";
 import { /*Outlet,*/ Link } from "react-router-dom";
 
 function Portfolio() {
@@ -26,7 +26,9 @@ function Portfolio() {
         </p>
       </main>
       <nav>
-        <Link to="/projects">Bekijk projecten</Link>
+        <Link to="/projects" className="Link-to-projects">
+          Go to projects
+        </Link>
       </nav>
     </>
   );

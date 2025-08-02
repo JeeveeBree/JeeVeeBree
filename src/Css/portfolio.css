@@ -1,1 +1,22 @@
-/* currently styled via mainLayout.css */
+/* currently global styled via mainLayout.css */
+
+.Link-to-projects {
+  text-decoration: none;
+  color: #e3651d;
+  position: relative;
+  display: inline-block;
+}
+
+.Link-to-projects::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #bed754;
+  transition: width 0.3s ease-in-out;
+}
+.Link-to-projects:hover::after {
+  width: 100%;
+}
