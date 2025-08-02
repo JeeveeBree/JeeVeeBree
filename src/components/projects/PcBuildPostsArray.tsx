@@ -1,7 +1,9 @@
+import React from "react";
+
 type Post = {
   id: string;
   title: string;
-  content: JSX.Element;
+  content: React.ReactNode;
 };
 
 const PcBuildPostsArray: Post[] = [
