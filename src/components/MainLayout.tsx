@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "../Css/mainLayout.css";
 
-const MainLayout = ({ children }: { children: React.ReactNode }) => {
+const MainLayout = ({ children }: { children?: React.ReactNode }) => {
   return (
     <>
       <Navbar />

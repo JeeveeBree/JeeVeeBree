@@ -6,10 +6,21 @@ function Portfolio() {
     <>
       <main className="main">
         <p>
-          As you can see i like a brutalist style for my site. This is in part
-          because i like the style and in part because for my personal site i
+          There is definitely an appeal to flashy websites with a lot of color
+          and animations, but for my personal website I went a different route.
+          My choice here is for a more minimalistic style in a dark theme, to
+          make it easy to navigate, very readable and a overall calming
+          experience. This site is built using HTML, CSS and TypeScript keeping
+          the minimalistic mindset even though the scope of the site keeps
+          growing. Which isn't negative, I just keep realizing new things I want
+          to add or adjust. It is fun to tinker with and discover what's
+          possible and what I personally like about a website, about my website.
+        </p>
+        <p>
+          As you can see I like a brutalist style for my site. This is in part
+          because I like the style and in part because for my personal site I
           like to use a combination of HTML, CSS and JavaScript, which gives me
-          more freedom to style my site as i see fit in comparison to using
+          more freedom to style my site as I see fit in comparison to using
           tools like Figma.
         </p>
         <p>

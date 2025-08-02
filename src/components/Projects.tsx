@@ -6,7 +6,7 @@ function Projects() {
       <p>
         A personal project I'm currently working on is building a new PC. I'm
         still in the research stage at the moment, which includes a couple new
-        PC related YouTube subscriptions, keeping up whith news from PC related
+        PC related YouTube subscriptions, keeping up with news from PC related
         outlets. There was a lot of interesting coverage from the Computex
         exhibition.
       </p>
@@ -18,13 +18,13 @@ function Projects() {
         am less set on these yet.
       </p>
       <p>
-        For my CPU I choose AMD because they are great chips overall and have
+        For my CPU I chose AMD because they are great chips overall and have
         better gaming performance. My first choice was the Ryzen 7 9800x3d which
         would be overkill for the GPU I'm going to pair it with. On the other
-        hand I like the idea of my PC being future proof. A other option would
+        hand I like the idea of my PC being future proof. Another option would
         be the Ryzen 7 7800x3d which also benefits from the 3D V-cache which
         increases load times and fps. The third option is the Ryzen 7 9700x,
-        this is the most budget friendly choice. All 3 options are 8-core
+        this is the most budget friendly choice. All three options are 8-core
         processors.
       </p>
       <p>
@@ -36,8 +36,8 @@ function Projects() {
         more expensive at the time of writing.
       </p>
       <p>
-        For keeping track of different build ideas, Pc part picker is an
-        excellent tool. I've got a few builds on my account, click{" "}
+        For keeping track of different build ideas, PcPartPicker is an excellent
+        tool. I've got a few builds on my account, click{" "}
         <a
           className="PCPP-build-Link"
           href="https://nl.pcpartpicker.com/list/Jh9yzP"
