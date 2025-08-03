@@ -9,7 +9,7 @@ type Post = {
 const PcBuildPostsArray: Post[] = [
   {
     id: "post1",
-    title: "Planning stage",
+    title: "Post 1, The planning stage",
     content: (
       <>
         <p>
@@ -62,19 +62,37 @@ const PcBuildPostsArray: Post[] = [
   },
   {
     id: "post2",
-    title: "Post 2",
+    title: "Post 2, PlaceholderPlaceholder",
     content: (
       <>
-        <p>Placeholder</p>
+        <p>
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+        </p>
       </>
     ),
   },
   {
     id: "post3",
-    title: "Post 3",
+    title: "Post 3, PlaceholderPlaceholder",
     content: (
       <>
-        <p>Placeholder</p>
+        <p>
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+        </p>
       </>
     ),
   },

@@ -1,25 +1,5 @@
 /* currently global styled via mainLayout.css */
 
-/* .PCPP-build-Link {
-  text-decoration: none;
-  color: #bed754;
-  position: relative;
-}
-
-.PCPP-build-Link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 0%;
-  background-color: #e3651d;
-  transition: width 0.3s ease-in-out;
-}
-.PCPP-build-Link:hover::after {
-  width: 100%;
-} */
-
 .projects-container {
   width: 100%;
   max-width: 100vw;
@@ -35,19 +15,22 @@
   align-items: center;
   width: 100%;
   max-width: 100%;
-  border: 1px solid #ddd;
+  border: 2px dashed #bed754;
   border-radius: 8px;
   text-decoration: none;
   color: inherit;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
+  /* transition: box-shadow 0.3s ease; */
+  /* transition: border 2px dashed #bed754; */
   padding: 10px 20px;
   box-sizing: border-box;
 }
 
 .project-button:hover {
+  border: 2px solid #e3651d;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
 }
 
 /* Image styling */

@@ -11,15 +11,20 @@ function PcBuild() {
 
   return (
     <div>
-      <h1>Pc build</h1>
+      {/* <h1>Pc build</h1> */}
       <p>Here follow a couple of posts about the process of building my PC.</p>
       <ul>
-        {PcBuildPostsArray.map(({ id, title, content }) => (
-          <li key={id}>
-            <button onClick={() => togglePost(id)}>{title}</button>
-            {openPostId === id && <div className="post-content">{content}</div>}
-          </li>
-        ))}
+        {PcBuildPostsArray.map(({ id, title, content }, index) => {
+          const alignmentClass = index % 2 === 0 ? "align-left" : "align-right";
+          return (
+            <li key={id} className={alignmentClass}>
+              <button onClick={() => togglePost(id)}>{title}</button>
+              {openPostId === id && (
+                <div className="post-content">{content}</div>
+              )}
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

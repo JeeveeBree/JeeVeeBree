@@ -1,41 +1,84 @@
 /* PcBuild.css */
 
-ul {
-  list-style: none;
-  padding: 0;
+.PCPP-build-Link {
+  text-decoration: none;
+  color: #bed754;
+  position: relative;
+}
+
+.PCPP-build-Link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #e3651d;
+  transition: width 0.3s ease-in-out;
+}
+.PCPP-build-Link:hover::after {
+  width: 100%;
 }
 
 li {
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 100%;
+}
+
+.align-left {
+  align-items: flex-start;
+}
+
+.align-left button {
+  color: #e3651d;
+}
+
+.align-right {
+  align-items: flex-end;
+}
+
+.align-right button {
+  color: #bed754;
 }
 
 button {
-  /* background-color: #1e90ff;  */
-  /* color: white; */
-  padding: 0.6rem 1.2rem;
+  background-color: #191919;
   font-size: 1rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  width: 100%;
-  max-width: 300px;
-  display: block;
+  width: fit-content;
   text-align: center;
-  margin: 0 auto;
+  margin: 0;
+  border: none;
+  position: relative;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+.align-left button::after {
+  background-color: #bed754;
+  left: 0;
+}
+
+.align-right button::after {
+  background-color: #e3651d;
+  right: 0;
+}
+
+button:hover::after {
+  width: 100%;
 }
 
 button:hover {
-  /* background-color: #0d74d1; */
   transform: scale(1.03);
-}
-
-button:focus {
-  outline: none;
-  /* box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.5); */
 }
 
 .post-content {
