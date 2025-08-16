@@ -16,8 +16,8 @@ const PcBuildPostsArray: Post[] = [
           A personal project I'm currently working on is building a new PC. I'm
           still in the research stage at the moment, which includes a couple new
           PC related YouTube subscriptions, keeping up with news from PC related
-          outlets. There was a lot of interesting coverage from the Computex
-          exhibition.
+          outlets. There was a lot of interesting coverage from the 2025
+          Computex exhibition.
         </p>
         <p>
           There are a lot of possible combinations of components in the PC

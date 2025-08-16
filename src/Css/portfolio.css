@@ -1,22 +1,67 @@
 /* currently global styled via mainLayout.css */
 
-.Link-to-projects {
-  text-decoration: none;
-  color: #e3651d;
-  position: relative;
-  display: inline-block;
+.portfolio-container {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.Link-to-projects::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 0%;
-  background-color: #bed754;
-  transition: width 0.3s ease-in-out;
-}
-.Link-to-projects:hover::after {
+.portfolio-button {
+  display: flex;
+  align-items: center;
   width: 100%;
+  max-width: 100%;
+  border: 2px dashed #e3651d;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  /* transition: box-shadow 0.3s ease; */
+  /* transition: border 2px dashed #bed754; */
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.portfolio-button:hover {
+  border: 2px solid #bed754;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+
+/* Image styling */
+.portfolio-image {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Content styling */
+.portfolio-info {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/* Button 1: content left aligned (default flex-row) */
+.portfolio-button.left {
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* Button 2 & 3: content right aligned */
+.portfolio-button.right {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  text-align: right;
+}
+
+/* Maak tekst ook rechts uitgelijnd als button rechts is */
+.portfolio-button.right .project-info {
+  text-align: right;
 }

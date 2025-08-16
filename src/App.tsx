@@ -7,6 +7,7 @@ import GetInTouch from "./components/GetInTouch";
 import HomeLayout from "./components/HomeLayout";
 import MainLayout from "./components/MainLayout";
 import ProjectDetail from "./components/projects/ProjectDetail";
+import PortfolioDetail from "./components/portfolio/PortfolioDetail";
 import "./Css/normalize.css";
 import "./Css/App.css";
 
@@ -32,6 +33,14 @@ function App() {
           element={
             <MainLayout>
               <Portfolio />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/portfolio/:portfolioId"
+          element={
+            <MainLayout>
+              <PortfolioDetail />
             </MainLayout>
           }
         />

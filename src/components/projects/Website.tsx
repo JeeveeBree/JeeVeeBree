@@ -1,5 +1,5 @@
 const Website = () => {
-  return <>bla bal</>;
+  return <>Project website placeholder</>;
 };
 
 export default Website;
