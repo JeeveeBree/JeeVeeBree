@@ -62,18 +62,22 @@ const PcBuildPostsArray: Post[] = [
   },
   {
     id: "post2",
-    title: "Post 2, PlaceholderPlaceholder",
+    title: "Post 2, The desk",
     content: (
       <>
         <p>
-          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
-          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
-          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
-          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
-          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
-          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
-          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
-          PlaceholderPlaceholderPlaceholderPlaceholderPlaceholderPlaceholder
+          There are a couple of things I look for in a desk. First and foremost
+          it needs to be functional. Secondly I want a height-adjustable desk to
+          be more healthy. Thirdly it needs to be durable because I plan to use
+          it for a long time and it needs to be able to carry a decent amount of
+          weight. And finally I would like it to look nice.
+        </p>
+        <p>
+          A lot of the desks I found were just to small. Finally I found one
+          which is a good size, height-adjustable, sturdy and looks nice
+          especially when combined with a walnut top. The walnut top makes it
+          more pricey of course but I do like a good solid piece of wood as
+          oposed to veneer.
         </p>
       </>
     ),

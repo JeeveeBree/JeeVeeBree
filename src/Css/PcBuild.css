@@ -27,19 +27,19 @@ li {
   width: 100%;
 }
 
-.align-left {
+.even {
   align-items: flex-start;
 }
 
-.align-left button {
+.even button {
   color: #e3651d;
 }
 
-.align-right {
-  align-items: flex-end;
+.odd {
+  align-items: flex-start;
 }
 
-.align-right button {
+.odd button {
   color: #bed754;
 }
 

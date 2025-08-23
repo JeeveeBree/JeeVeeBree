@@ -12,10 +12,12 @@ function PcBuild() {
   return (
     <div>
       {/* <h1>Pc build</h1> */}
-      <p>Here follow a couple of posts about the process of building my PC.</p>
+      <p>
+        Here follows a list with posts about the process to keep it ordered.
+      </p>
       <ul>
         {PcBuildPostsArray.map(({ id, title, content }, index) => {
-          const alignmentClass = index % 2 === 0 ? "align-left" : "align-right";
+          const alignmentClass = index % 2 === 0 ? "even" : "odd";
           return (
             <li key={id} className={alignmentClass}>
               <button onClick={() => togglePost(id)}>{title}</button>
