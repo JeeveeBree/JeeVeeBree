@@ -18,11 +18,18 @@ const PortfolioWebsite = () => {
         <p>
           As you can see I like a brutalist style for my site. This is in part
           because I like the style and in part because for my personal site I
-          like to use a combination of HTML, CSS and JavaScript, which gives me
-          more freedom to style my site as I see fit in comparison to using
-          tools like Figma.
+          like to use a combination of HTML, CSS and JavaScript / Typescript,
+          which gives me more freedom to style my site as I see fit in
+          comparison to using tools like Figma.
         </p>
         <p>
+          The site is still a work in progress and a lot of things are subject
+          to change. To be honest, it probably always will be as I keep learning
+          new things and ideas keep popping up. But that's not a bad thing. To
+          be able to continously improve and adjust my site to my liking is the
+          whole draw of building it in the first place.
+        </p>
+        {/* <p>
           Welcome to my site! Hi there! I’m Jorn van Bree, a passionate
           front-end developer with a love for crafting intuitive and beautiful
           web experiences. As I begin my journey into the world of web
@@ -33,7 +40,7 @@ const PortfolioWebsite = () => {
           interactive web application, I’m here to help make your vision a
           reality. Feel free to explore my projects, and don’t hesitate to get
           in touch if you’d like to collaborate or just chat about tech!
-        </p>
+        </p> */}
       </main>
       <nav>
         <Link to="/projects/Website">Go to website project.</Link>
