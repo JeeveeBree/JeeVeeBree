@@ -11,7 +11,7 @@ used in combination with homeLayout.css */
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #191919;
+  background-color: #878e94;
   /* box-shadow: 20px 20px 10px rgba(252, 4, 4, 0.966); */
   /* z-index: 1; */
   /* padding: 1rem 0; */
@@ -19,13 +19,13 @@ used in combination with homeLayout.css */
 .homenavbar-title {
   font-family: "Megrim";
   font-size: 1.5rem;
-  text-shadow: 1px 0 #e3651d, 0 1px #e3651d, -1px 0 #e3651d, 0 -1px #e3651d;
-  color: #e3651d;
+  text-shadow: 1px 0 #2e6241, 0 1px #2e6241, -1px 0 #2e6241, 0 -1px #2e6241;
+  color: #2e6241;
   text-align: right;
   /* padding-right: 3rem; */
   /* padding: 3rem; */
   margin: 2rem;
-  border-bottom: 2px solid #030303;
+  border-bottom: 2px solid #232528;
 }
 
 /* .homenavbar-title:hover {
@@ -64,56 +64,60 @@ used in combination with homeLayout.css */
 .homenavbar-nav-links a {
   /* background-color: #1f7d53; */
   /* display: flex; */
-
+  /* border-radius: 16px; */
   /* height: 50px; */
-  background-color: #e3651d;
-  border-color: #4e3636;
+  background-color: #b9c2ca;
+  /* border-color: #4c5b61; */
   padding: 1rem;
   margin: 0.05rem;
   /* text-align: left; */
   text-decoration: none;
-  color: #030303;
+  color: #2e6241;
   font-size: 2rem;
   /* border: thick double red; */
-  text-shadow: 2px 2px 0px #bed754;
-  box-shadow: 10px 10px 10px #4e3636;
+  text-shadow: 2px 2px 0px #eaf6ff;
+  /* box-shadow: 10px 10px 10px #191919; */
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .portfolio-link {
-  border-right: thick double;
-  border-bottom: thick double;
+  border-radius: 16px 0 0 0;
+  /* border-right: thick double;
+  border-bottom: thick double; */
 }
 
 .projects-link {
-  border-left: thick double;
-  border-bottom: thick double;
+  border-radius: 0 16px 0 0;
+  /* border-left: thick double;
+  border-bottom: thick double; */
 }
 
 .about-link {
-  border-right: thick double;
-  border-top: thick double;
+  border-radius: 0 0 0 16px;
+  /* border-right: thick double;
+  border-top: thick double; */
 }
 
 .contact-link {
-  border-left: thick double;
-  border-top: thick double;
+  border-radius: 0 0 16px 0;
+  /* border-left: thick double;
+  border-top: thick double; */
 }
 
 .homenavbar-nav-links a:hover {
-  background-color: #751d0e;
-  text-shadow: 2px 2px 0px #191919;
-  color: #fff;
+  background-color: #2e6241;
+  text-shadow: 2px 2px 0px #399e5a;
+  color: #eaf6ff;
 }
 
 .homenavbar-footer {
   width: calc(100% - 4rem);
   height: 60px;
   margin: 0 2rem;
-  border-top: 2px solid black;
+  border-top: 2px solid #232528;
   text-align: center;
   /* background-color: #191919; */
-  color: white;
+  color: #232528;
 }
 
 @media (max-width: 475px) {

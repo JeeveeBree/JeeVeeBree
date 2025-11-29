@@ -22,13 +22,13 @@ const PortfolioWebsite = () => {
           which gives me more freedom to style my site as I see fit in
           comparison to using tools like Figma.
         </p>
-        <p>
+        {/* <p>
           The site is still a work in progress and a lot of things are subject
           to change. To be honest, it probably always will be as I keep learning
           new things and ideas keep popping up. But that's not a bad thing. To
           be able to continously improve and adjust my site to my liking is the
           whole draw of building it in the first place.
-        </p>
+        </p> */}
         {/* <p>
           Welcome to my site! Hi there! I’m Jorn van Bree, a passionate
           front-end developer with a love for crafting intuitive and beautiful
@@ -43,7 +43,9 @@ const PortfolioWebsite = () => {
         </p> */}
       </main>
       <nav>
-        <Link to="/projects/Website">Go to website project.</Link>
+        <Link className="PortfolioLink" to="/projects/Website">
+          Go to website project.
+        </Link>
       </nav>
     </>
   );

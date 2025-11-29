@@ -13,7 +13,12 @@ function PcBuild() {
     <div>
       {/* <h1>Pc build</h1> */}
       <p>
-        Here follows a list with posts about the process to keep it ordered.
+        Here follows a blog post style list about the process to keep it
+        ordered. The build is completed so you can also check out a short
+        summary on PCPartPicker{" "}
+        <a className="ProjectsLink" href="https://pcpartpicker.com/b/zdFgXL">
+          here.
+        </a>
       </p>
       <ul>
         {PcBuildPostsArray.map(({ id, title, content }, index) => {

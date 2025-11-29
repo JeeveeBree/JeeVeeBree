@@ -48,7 +48,7 @@ const PcBuildPostsArray: Post[] = [
           For keeping track of different build ideas, PcPartPicker is an
           excellent tool. I've got a few builds on my account, click{" "}
           <a
-            className="PCPP-build-Link"
+            className="ProjectsLink"
             href="https://nl.pcpartpicker.com/list/Jh9yzP"
             target="_blank"
             rel="noopener noreferrer"

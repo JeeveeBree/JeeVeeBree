@@ -15,7 +15,7 @@
   align-items: center;
   width: 100%;
   max-width: 100%;
-  border: 2px solid #e3651d;
+  border: 2px solid #2c423f;
   border-radius: 8px;
   text-decoration: none;
   color: inherit;
@@ -26,18 +26,20 @@
 }
 
 .portfolio-button:hover {
-  border: 2px solid #bed754;
+  border: 2px solid white;
+  background-color: #2e6241;
+  color: #eaf6ff;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   transform: scale(1.03);
 }
 
-/* Image styling */
-.portfolio-image {
+/* Image styling (not in use atm) */
+/* .portfolio-image {
   width: 200px;
   height: 120px;
   object-fit: cover;
   border-radius: 6px;
-}
+} */
 
 /* Content styling */
 .portfolio-info {
@@ -62,4 +64,24 @@
 /* Maak tekst ook rechts uitgelijnd als button rechts is */
 .portfolio-button.right .project-info {
   text-align: right;
+}
+
+.PortfolioLink {
+  text-decoration: none;
+  color: #2e6241;
+  position: relative;
+}
+
+.PortfolioLink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #eaf6ff;
+  transition: width 0.3s ease-in-out;
+}
+.PortfolioLink:hover::after {
+  width: 100%;
 }

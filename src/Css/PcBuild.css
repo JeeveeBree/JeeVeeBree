@@ -1,22 +1,22 @@
 /* PcBuild.css */
 
-.PCPP-build-Link {
+.ProjectsLink {
   text-decoration: none;
-  color: #bed754;
+  color: #2e6241;
   position: relative;
 }
 
-.PCPP-build-Link::after {
+.ProjectsLink::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   height: 2px;
   width: 0%;
-  background-color: #e3651d;
+  background-color: #eaf6ff;
   transition: width 0.3s ease-in-out;
 }
-.PCPP-build-Link:hover::after {
+.ProjectsLink:hover::after {
   width: 100%;
 }
 
@@ -32,7 +32,8 @@ li {
 }
 
 .even button {
-  color: #e3651d;
+  color: #2e6241;
+  border-color: #eaf6ff;
 }
 
 .odd {
@@ -40,18 +41,20 @@ li {
 }
 
 .odd button {
-  color: #bed754;
+  color: #eaf6ff;
+  border-color: #2e6241;
 }
 
 button {
-  background-color: #191919;
+  background-color: #878e94;
   font-size: 1rem;
   transition: background-color 0.3s ease, transform 0.2s ease;
   width: fit-content;
   text-align: center;
   margin: 0;
-  border: none;
+  border: solid;
   position: relative;
+  border-radius: 8px;
 }
 
 button::after {
@@ -64,12 +67,12 @@ button::after {
 }
 
 .align-left button::after {
-  background-color: #bed754;
+  background-color: #eaf6ff;
   left: 0;
 }
 
 .align-right button::after {
-  background-color: #e3651d;
+  background-color: #2e6241;
   right: 0;
 }
 

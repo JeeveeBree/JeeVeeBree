@@ -15,7 +15,7 @@
   align-items: center;
   width: 100%;
   max-width: 100%;
-  border: 2px solid #bed754;
+  border: 2px solid #232528;
   border-radius: 8px;
   text-decoration: none;
   color: inherit;
@@ -27,7 +27,8 @@
 }
 
 .project-button:hover {
-  border: 2px solid #e3651d;
+  border: 2px solid #eaf6ff;
+  background-color: #2e6241;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   transform: scale(1.03);
 }

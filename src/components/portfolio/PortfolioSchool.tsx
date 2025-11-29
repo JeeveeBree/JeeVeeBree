@@ -33,7 +33,7 @@ const PortfolioSchool = () => {
           href="/CertificateFront-EndWinc.pdf"
           target="_blank"
           rel="noreferrer"
-          className="CertificateLink"
+          className="PortfolioLink"
         >
           here
         </a>
