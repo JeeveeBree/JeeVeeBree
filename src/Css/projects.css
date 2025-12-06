@@ -27,8 +27,9 @@
 }
 
 .project-button:hover {
-  border: 2px solid #eaf6ff;
-  background-color: #2e6241;
+  border: 2px solid #1b9aaa;
+  color: #1b9aaa;
+  background-color: #f5f1e3;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   transform: scale(1.03);
 }

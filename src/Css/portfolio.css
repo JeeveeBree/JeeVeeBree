@@ -15,7 +15,7 @@
   align-items: center;
   width: 100%;
   max-width: 100%;
-  border: 2px solid #2c423f;
+  border: 2px solid #050505;
   border-radius: 8px;
   text-decoration: none;
   color: inherit;
@@ -26,9 +26,9 @@
 }
 
 .portfolio-button:hover {
-  border: 2px solid white;
-  background-color: #2e6241;
-  color: #eaf6ff;
+  border: 2px solid #1b9aaa;
+  background-color: #f5f1e3;
+  color: #1b9aaa;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   transform: scale(1.03);
 }
@@ -68,7 +68,7 @@
 
 .PortfolioLink {
   text-decoration: none;
-  color: #2e6241;
+  color: #1b9aaa;
   position: relative;
 }
 
@@ -79,7 +79,7 @@
   bottom: 0;
   height: 2px;
   width: 0%;
-  background-color: #eaf6ff;
+  background-color: #f5f1e3;
   transition: width 0.3s ease-in-out;
 }
 .PortfolioLink:hover::after {

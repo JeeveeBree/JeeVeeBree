@@ -11,7 +11,7 @@ used in combination with homeLayout.css */
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #878e94;
+  background-color: #f5f1e3;
   /* box-shadow: 20px 20px 10px rgba(252, 4, 4, 0.966); */
   /* z-index: 1; */
   /* padding: 1rem 0; */
@@ -19,13 +19,13 @@ used in combination with homeLayout.css */
 .homenavbar-title {
   font-family: "Megrim";
   font-size: 1.5rem;
-  text-shadow: 1px 0 #2e6241, 0 1px #2e6241, -1px 0 #2e6241, 0 -1px #2e6241;
-  color: #2e6241;
+  text-shadow: 1px 0 #1b9aaa, 0 1px #1b9aaa, -1px 0 #1b9aaa, 0 -1px #1b9aaa;
+  color: #1b9aaa;
   text-align: right;
   /* padding-right: 3rem; */
   /* padding: 3rem; */
   margin: 2rem;
-  border-bottom: 2px solid #232528;
+  border-bottom: 2px solid #050505;
 }
 
 /* .homenavbar-title:hover {
@@ -66,16 +66,16 @@ used in combination with homeLayout.css */
   /* display: flex; */
   /* border-radius: 16px; */
   /* height: 50px; */
-  background-color: #b9c2ca;
+  background-color: #dddbcb;
   /* border-color: #4c5b61; */
   padding: 1rem;
   margin: 0.05rem;
   /* text-align: left; */
   text-decoration: none;
-  color: #2e6241;
+  color: #1b9aaa;
   font-size: 2rem;
   /* border: thick double red; */
-  text-shadow: 2px 2px 0px #eaf6ff;
+  text-shadow: 2px 2px 0px #ffffff;
   /* box-shadow: 10px 10px 10px #191919; */
   transition: background-color 0.5s ease, color 0.5s ease;
 }
@@ -105,19 +105,19 @@ used in combination with homeLayout.css */
 }
 
 .homenavbar-nav-links a:hover {
-  background-color: #2e6241;
-  text-shadow: 2px 2px 0px #399e5a;
-  color: #eaf6ff;
+  background-color: #1b9aaa;
+  text-shadow: 2px 2px 0px #105058;
+  color: #ffffff;
 }
 
 .homenavbar-footer {
   width: calc(100% - 4rem);
   height: 60px;
   margin: 0 2rem;
-  border-top: 2px solid #232528;
+  border-top: 2px solid #050505;
   text-align: center;
   /* background-color: #191919; */
-  color: #232528;
+  color: #050505;
 }
 
 @media (max-width: 475px) {

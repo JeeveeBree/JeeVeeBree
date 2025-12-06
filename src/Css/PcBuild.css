@@ -2,7 +2,7 @@
 
 .ProjectsLink {
   text-decoration: none;
-  color: #2e6241;
+  color: #1b9aaa;
   position: relative;
 }
 
@@ -13,7 +13,7 @@
   bottom: 0;
   height: 2px;
   width: 0%;
-  background-color: #eaf6ff;
+  background-color: #f5f1e3;
   transition: width 0.3s ease-in-out;
 }
 .ProjectsLink:hover::after {
@@ -32,7 +32,7 @@ li {
 }
 
 .even button {
-  color: #2e6241;
+  color: #1b9aaa;
   border-color: #eaf6ff;
 }
 
@@ -42,11 +42,11 @@ li {
 
 .odd button {
   color: #eaf6ff;
-  border-color: #2e6241;
+  border-color: #1b9aaa;
 }
 
 button {
-  background-color: #878e94;
+  background-color: #dddbcb;
   font-size: 1rem;
   transition: background-color 0.3s ease, transform 0.2s ease;
   width: fit-content;
@@ -63,10 +63,10 @@ button::after {
   bottom: -2px;
   height: 2px;
   width: 0%;
-  transition: width 0.3s ease-in-out;
+  transition: width 0.5 ease-in-out;
 }
 
-.align-left button::after {
+/* .align-left button::after {
   background-color: #eaf6ff;
   left: 0;
 }
@@ -74,14 +74,14 @@ button::after {
 .align-right button::after {
   background-color: #2e6241;
   right: 0;
-}
+} */
 
 button:hover::after {
   width: 100%;
 }
 
 button:hover {
-  transform: scale(1.03);
+  transform: scale(1.1);
 }
 
 .post-content {

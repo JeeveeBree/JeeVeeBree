@@ -32,7 +32,7 @@ used in combination with mainLayout.css*/
   justify-content: space-between;
   align-items: center;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #232528;
+  border-bottom: 2px solid #050505;
 
   /* flex-wrap: wrap; */
   width: 100%;
@@ -44,7 +44,7 @@ used in combination with mainLayout.css*/
 }
 
 .nav-links a {
-  color: #2e6241;
+  color: #1b9aaa;
   text-decoration: none;
   position: relative;
 }
@@ -56,7 +56,7 @@ used in combination with mainLayout.css*/
   height: 2px;
   width: 0%;
   /* color: #eaf6ff; */
-  background-color: #eaf6ff;
+  background-color: #f5f1e3;
   transition: width 0.3s ease-in-out;
 }
 .nav-links a:hover::after {
@@ -73,7 +73,8 @@ used in combination with mainLayout.css*/
   /* font-size: 1.5rem; */
   /* text-shadow: 1px 0 black, 0 1px black, -1px 0 black, 0 -1px black; */
   text-decoration: none;
-  color: #2e6241;
+  color: #1b9aaa;
+  text-shadow: 1px 0 #1b9aaa, 0 1px #1b9aaa, -1px 0 #1b9aaa, 0 -1px #1b9aaa;
 }
 .logo {
   /* padding: 1rem; */
@@ -94,7 +95,7 @@ used in combination with mainLayout.css*/
   bottom: 0;
   height: 2px;
   width: 0%;
-  background-color: #eaf6ff;
+  background-color: #f5f1e3;
   transition: width 0.3s ease-in-out;
 }
 .logo:hover::after {
